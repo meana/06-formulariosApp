@@ -31,7 +31,7 @@ export class SidemenuComponent {
       texto: 'Switches',
       ruta: './template/switches'
     }
-  ]
+  ];
 
   reactiveMenu: MenuItem[] = [
     {
@@ -46,5 +46,16 @@ export class SidemenuComponent {
       texto: 'Switches',
       ruta: './reactive/switches'
     }
-  ]  
+  ];
+  
+  authMenu: MenuItem[] = [
+    {
+      texto: 'login',
+      ruta: './auth/login'
+    },
+    {
+      texto: 'registro',
+      ruta: './auth/registro'
+    }
+  ]
 }
